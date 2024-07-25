@@ -1,5 +1,7 @@
 # BilibiliMallDownload
- 工房不让下载？我偏要下载！
+ ~工房不让下载？我偏要下载！~
+ 
+工坊可以下载了，是时候改成public仓库了
 
 ## 用法
 
@@ -23,4 +25,4 @@ go run main.go your-config-file.json
 }
 ```
 
-> 可使用 [BilibiliLogin-Lite](https://github.com/FangCunWuChang/BilibiliLogin-Lite) 生成登录信息, 或直接从浏览器开发者工具中复制cookie字符串
+> 可~使用 [BilibiliLogin-Lite](https://github.com/FangCunWuChang/BilibiliLogin-Lite) 生成登录信息~（缺少一些必要项，会获取失败）, 或直接从浏览器开发者工具中复制cookie字符串
