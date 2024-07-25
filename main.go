@@ -5,11 +5,11 @@ import (
 	"net/http"
 
 	"github.com/boxie123/BilibiliMallDownload/utils"
+	login "github.com/boxie123/GoBilibiliLogin"
 )
 
 func main() {
-	var filePath = utils.GetSettingFilePath()
-	_, cookie := utils.ReaderSettingMode(filePath)
+	cookie, _, _ := login.Login()
 
 	client := &http.Client{}
 	buyWorkVOList := utils.GetWorksList(client, cookie)
